@@ -24,21 +24,21 @@
 // 	scn.Buffer(buf, maxBufSize)
 // 	scn.Split(bufio.ScanWords)
 
-// 	n := nextInt(scn)
+// 	numCases := nextInt(scn)
 // 	s := next(scn)
-// 	x := make([]int, n)
-// 	y := make([]int, n)
-// 	for i := 0; i < n; i++ {
+// 	x := make([]int, numCases)
+// 	y := make([]int, numCases)
+// 	for i := 0; i < numCases; i++ {
 // 		x[i] = nextInt(scn)
 // 		y[i] = nextInt(scn)
 // 	}
 
 // 	// solve here
 
-// 	fmt.Println(n)
+// 	fmt.Println(numCases)
 // 	fmt.Println(s)
 // 	fmt.Println(x[0])
-// 	fmt.Println(y[n-1])
+// 	fmt.Println(y[numCases-1])
 // }
 
 // func solve(n int) {
